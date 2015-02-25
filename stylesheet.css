@@ -181,3 +181,29 @@
             right: auto;
         }
 }
+html, body, #container { height: 100%; }
+body > #container { height: auto; min-height: 100%; }
+
+button {
+  background-color: #202020;
+  color: white;
+  border: 2px solid green;
+}
+
+.swapper {
+  background-color: black;
+  color: white;
+}
+
+#footer {
+  color: white;
+  background-color: #202020;
+  clear: both;
+  position: relative;
+  text-align: center;
+  z-index: 10;
+  height: 3em;
+  margin-top: -3em;
+}
+
+#content { padding-bottom: 3em; }
