@@ -201,7 +201,7 @@ body > #container { height: auto; min-height: 100%; }
 
 .colorful-theme {
   background-color: green;
-  color: purple !important;
+  color: purple;
 }
 
 button {
